@@ -14,7 +14,14 @@ public class LeftHand : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        gameObject.transform.position = InputTracking.GetLocalPosition(XRNode.LeftHand);
+        if (Vector3.Distance(InputTracking.GetLocalPosition(XRNode.LeftHand), InputTracking.GetLocalPosition(XRNode.Head)) < 0.5)
+        {
+            gameObject.transform.position = InputTracking.GetLocalPosition(XRNode.LeftHand);
+        } else
+        {
+            float coefficient = 0.5f + Vector3.Distance(InputTracking.GetLocalPosition(XRNode.LeftHand), InputTracking.GetLocalPosition(XRNode.Head));
+            gameObject.transform.position = coefficient*InputTracking.GetLocalPosition(XRNode.LeftHand);
+        }
         gameObject.transform.localRotation = InputTracking.GetLocalRotation(XRNode.LeftHand);
     }
 }
