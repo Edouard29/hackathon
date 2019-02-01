@@ -1,26 +1,59 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.IO;
 
 public class Villes : MonoBehaviour
 {
-    public ArrayList villes;
+    public GameObject canvas;
     public GameObject ville;
 
     // Start is called before the first frame update
     void Start()
     {
-        villes = new ArrayList();
-
-        for(int i = 0; i < 10; i++)
+        string fileName = "Assets/Prefabs/Terre/infoVilles.txt";
+        TextReader reader;
+        reader = new StreamReader(fileName);
+        string line;
+        while (true)
         {
-            GameObject tempVille = GameObject.Instantiate(ville);
-            tempVille.transform.position = new Vector3(0, 0, 0);
-            tempVille.transform.RotateAround(new Vector3(0, -5, 0), new Vector3(1, 0, 1), i * 360 / 10);
+            // lecture de la ligne
+            line = reader.ReadLine();
+            // si la ligne est vide on arrête
+            if (line == null) break;
 
-            villes.Add(tempVille);
+            string nom = line;
+            float longitude, latitude;
+
+            line = reader.ReadLine();
+            longitude = float.Parse(line);
+            line = reader.ReadLine();
+            latitude = float.Parse(line);
+
+            // On utilise les données récupérées dans le fichier
+
+            GameObject tempVille = GameObject.Instantiate(ville);
+            tempVille.transform.parent = gameObject.transform;
+            tempVille.transform.localPosition = new Vector3(0, 0, 20.2f);
+            tempVille.transform.RotateAround(new Vector3(0, gameObject.transform.position.y, 0), new Vector3(1, 0, 0), -latitude);
+            tempVille.transform.RotateAround(new Vector3(0, gameObject.transform.position.y, 0), new Vector3(0, 1, 0), -longitude);
+            tempVille.layer = 9;
+
+            GameObject nomVille = GameObject.Instantiate(canvas);
+            nomVille.transform.parent = gameObject.transform;
+
+            nomVille.transform.RotateAround(new Vector3(0, 0, 0), new Vector3(0, 1, 0), 180);
+
+            nomVille.transform.localPosition = new Vector3(0, 0, 20.2f);
+            
+            nomVille.transform.RotateAround(new Vector3(0, gameObject.transform.position.y, 0), new Vector3(1, 0, 0), -latitude);
+            nomVille.transform.RotateAround(new Vector3(0, gameObject.transform.position.y, 0), new Vector3(0, 1, 0), -longitude);
+            nomVille.layer = 9;
+
+            nomVille.GetComponent<UnityEngine.UI.Text>().text = nom;
         }
-        
+        reader.Close();
+
     }
 
     // Update is called once per frame
