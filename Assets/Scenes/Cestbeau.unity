@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.0030897777, g: 0.0028942425, b: 0.0031967168, a: 1}
+  m_IndirectSpecularColor: {r: 0.0029047208, g: 0.0027845316, b: 0.0030140965, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -112,7 +112,258 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+<<<<<<< HEAD:Assets/C'estbeau.unity
+--- !u!1001 &175917855
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1959959966}
+    m_Modifications:
+    - target: {fileID: 7852194357648214101, guid: 30898c6906c4d644faf49673d91483fe,
+        type: 3}
+      propertyPath: m_Name
+      value: Left Hand
+      objectReference: {fileID: 0}
+    - target: {fileID: 105363875682299095, guid: 30898c6906c4d644faf49673d91483fe,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.22231245
+      objectReference: {fileID: 0}
+    - target: {fileID: 105363875682299095, guid: 30898c6906c4d644faf49673d91483fe,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.2465801
+      objectReference: {fileID: 0}
+    - target: {fileID: 105363875682299095, guid: 30898c6906c4d644faf49673d91483fe,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.5037923
+      objectReference: {fileID: 0}
+    - target: {fileID: 105363875682299095, guid: 30898c6906c4d644faf49673d91483fe,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 105363875682299095, guid: 30898c6906c4d644faf49673d91483fe,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 105363875682299095, guid: 30898c6906c4d644faf49673d91483fe,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 105363875682299095, guid: 30898c6906c4d644faf49673d91483fe,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 105363875682299095, guid: 30898c6906c4d644faf49673d91483fe,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 105363875682299095, guid: 30898c6906c4d644faf49673d91483fe,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 105363875682299095, guid: 30898c6906c4d644faf49673d91483fe,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 105363875682299095, guid: 30898c6906c4d644faf49673d91483fe,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 105363875682299095, guid: 30898c6906c4d644faf49673d91483fe,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 105363875682299095, guid: 30898c6906c4d644faf49673d91483fe,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 105363875682299095, guid: 30898c6906c4d644faf49673d91483fe,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8535249705284871615, guid: 30898c6906c4d644faf49673d91483fe,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8535249705284871615, guid: 30898c6906c4d644faf49673d91483fe,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 30898c6906c4d644faf49673d91483fe, type: 3}
+--- !u!4 &175917856 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 105363875682299095, guid: 30898c6906c4d644faf49673d91483fe,
+    type: 3}
+  m_PrefabInstance: {fileID: 175917855}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &175917857 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7852194357648214101, guid: 30898c6906c4d644faf49673d91483fe,
+    type: 3}
+  m_PrefabInstance: {fileID: 175917855}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &175917858
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 175917857}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64f840949eccf7f4982288e785c43d8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!54 &175917862
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 175917857}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!1001 &271445756
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1959959966}
+    m_Modifications:
+    - target: {fileID: 7852194357648214101, guid: 30898c6906c4d644faf49673d91483fe,
+        type: 3}
+      propertyPath: m_Name
+      value: Right Hand
+      objectReference: {fileID: 0}
+    - target: {fileID: 105363875682299095, guid: 30898c6906c4d644faf49673d91483fe,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.22231245
+      objectReference: {fileID: 0}
+    - target: {fileID: 105363875682299095, guid: 30898c6906c4d644faf49673d91483fe,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.2465801
+      objectReference: {fileID: 0}
+    - target: {fileID: 105363875682299095, guid: 30898c6906c4d644faf49673d91483fe,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.5037923
+      objectReference: {fileID: 0}
+    - target: {fileID: 105363875682299095, guid: 30898c6906c4d644faf49673d91483fe,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 105363875682299095, guid: 30898c6906c4d644faf49673d91483fe,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 105363875682299095, guid: 30898c6906c4d644faf49673d91483fe,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 105363875682299095, guid: 30898c6906c4d644faf49673d91483fe,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 105363875682299095, guid: 30898c6906c4d644faf49673d91483fe,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 105363875682299095, guid: 30898c6906c4d644faf49673d91483fe,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 105363875682299095, guid: 30898c6906c4d644faf49673d91483fe,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 105363875682299095, guid: 30898c6906c4d644faf49673d91483fe,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 105363875682299095, guid: 30898c6906c4d644faf49673d91483fe,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 105363875682299095, guid: 30898c6906c4d644faf49673d91483fe,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 105363875682299095, guid: 30898c6906c4d644faf49673d91483fe,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8535249705284871615, guid: 30898c6906c4d644faf49673d91483fe,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 30898c6906c4d644faf49673d91483fe, type: 3}
+--- !u!4 &271445757 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 105363875682299095, guid: 30898c6906c4d644faf49673d91483fe,
+    type: 3}
+  m_PrefabInstance: {fileID: 271445756}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &271445758 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7852194357648214101, guid: 30898c6906c4d644faf49673d91483fe,
+    type: 3}
+  m_PrefabInstance: {fileID: 271445756}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &271445759
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 271445758}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed112e5b8ae13454da673358c26e1092, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &324054034
+=======
 --- !u!1001 &190494745
+>>>>>>> a493fb2784f1f22f81a93a7290b85b83bf41edba:Assets/Scenes/Cestbeau.unity
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -162,7 +413,11 @@ PrefabInstance:
     - target: {fileID: 1983167326921445088, guid: 2ea20c2348ac9b740b6783b8ff672ef8,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+<<<<<<< HEAD:Assets/C'estbeau.unity
+      value: 0
+=======
+      value: 3
+>>>>>>> a493fb2784f1f22f81a93a7290b85b83bf41edba:Assets/Scenes/Cestbeau.unity
       objectReference: {fileID: 0}
     - target: {fileID: 1983167326921445088, guid: 2ea20c2348ac9b740b6783b8ff672ef8,
         type: 3}
@@ -198,7 +453,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: SunHQ
       objectReference: {fileID: 0}
+<<<<<<< HEAD:Assets/C'estbeau.unity
+    - target: {fileID: 1026377642355284127, guid: 2ea20c2348ac9b740b6783b8ff672ef8,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1983167326921445088, guid: 2ea20c2348ac9b740b6783b8ff672ef8,
+=======
     - target: {fileID: 7699784607817221168, guid: cda7409f11edb8d46811d0288faad19f,
+>>>>>>> a493fb2784f1f22f81a93a7290b85b83bf41edba:Assets/Scenes/Cestbeau.unity
         type: 3}
       propertyPath: m_LocalPosition.x
       value: -400
@@ -206,12 +470,16 @@ PrefabInstance:
     - target: {fileID: 7699784607817221168, guid: cda7409f11edb8d46811d0288faad19f,
         type: 3}
       propertyPath: m_LocalPosition.y
+<<<<<<< HEAD:Assets/C'estbeau.unity
+      value: -52
+=======
       value: 10
+>>>>>>> a493fb2784f1f22f81a93a7290b85b83bf41edba:Assets/Scenes/Cestbeau.unity
       objectReference: {fileID: 0}
     - target: {fileID: 7699784607817221168, guid: cda7409f11edb8d46811d0288faad19f,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1000
+      value: -2500
       objectReference: {fileID: 0}
     - target: {fileID: 7699784607817221168, guid: cda7409f11edb8d46811d0288faad19f,
         type: 3}
@@ -256,21 +524,47 @@ PrefabInstance:
     - target: {fileID: 7699784607817221168, guid: cda7409f11edb8d46811d0288faad19f,
         type: 3}
       propertyPath: m_LocalScale.x
+<<<<<<< HEAD:Assets/C'estbeau.unity
+      value: 100
+=======
       value: 500
+>>>>>>> a493fb2784f1f22f81a93a7290b85b83bf41edba:Assets/Scenes/Cestbeau.unity
       objectReference: {fileID: 0}
     - target: {fileID: 7699784607817221168, guid: cda7409f11edb8d46811d0288faad19f,
         type: 3}
       propertyPath: m_LocalScale.y
+<<<<<<< HEAD:Assets/C'estbeau.unity
+      value: 100
+=======
       value: 500
+>>>>>>> a493fb2784f1f22f81a93a7290b85b83bf41edba:Assets/Scenes/Cestbeau.unity
       objectReference: {fileID: 0}
     - target: {fileID: 7699784607817221168, guid: cda7409f11edb8d46811d0288faad19f,
         type: 3}
       propertyPath: m_LocalScale.z
+<<<<<<< HEAD:Assets/C'estbeau.unity
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 3360901055964489683, guid: 2ea20c2348ac9b740b6783b8ff672ef8,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3360901055964489683, guid: 2ea20c2348ac9b740b6783b8ff672ef8,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.5
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2ea20c2348ac9b740b6783b8ff672ef8, type: 3}
+--- !u!1 &1959959963
+=======
       value: 500
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cda7409f11edb8d46811d0288faad19f, type: 3}
 --- !u!1 &1819513435
+>>>>>>> a493fb2784f1f22f81a93a7290b85b83bf41edba:Assets/Scenes/Cestbeau.unity
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -278,9 +572,9 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1819513438}
-  - component: {fileID: 1819513437}
-  - component: {fileID: 1819513436}
+  - component: {fileID: 1959959966}
+  - component: {fileID: 1959959965}
+  - component: {fileID: 1959959964}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -288,21 +582,21 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &1819513436
+--- !u!81 &1959959964
 AudioListener:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1819513435}
+  m_GameObject: {fileID: 1959959963}
   m_Enabled: 1
---- !u!20 &1819513437
+--- !u!20 &1959959965
 Camera:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1819513435}
+  m_GameObject: {fileID: 1959959963}
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
@@ -318,7 +612,7 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: 0.3
+  near clip plane: 0.1
   far clip plane: 1000
   field of view: 60
   orthographic: 0
@@ -332,26 +626,96 @@ Camera:
   m_TargetDisplay: 0
   m_TargetEye: 3
   m_HDR: 1
-  m_AllowMSAA: 0
+  m_AllowMSAA: 1
   m_AllowDynamicResolution: 0
   m_ForceIntoRT: 0
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
---- !u!4 &1819513438
+--- !u!4 &1959959966
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:Assets/C'estbeau.unity
+  m_GameObject: {fileID: 1959959963}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
+  m_Children:
+  - {fileID: 271445757}
+  - {fileID: 175917856}
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
   m_GameObject: {fileID: 1819513435}
-  m_LocalRotation: {x: -0.086824045, y: 0.85286856, z: -0.4924039, w: -0.15038365}
-  m_LocalPosition: {x: 141.6, y: 122.8, z: -116.7}
+  m_LocalRotation: {x: 1, y: 0, z: 0, w: 0}
+  m_LocalPosition: {x: 100, y: 100, z: 100}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 60, y: 200, z: 0}
+  m_LocalEulerAnglesHint: {x: 180, y: 0, z: 0}
+--- !u!1001 &2044568267
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 100004, guid: 6e8c7c425e5bc374daf95a774767b1e3, type: 3}
+      propertyPath: m_Name
+      value: ExploAlien
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 6e8c7c425e5bc374daf95a774767b1e3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 6e8c7c425e5bc374daf95a774767b1e3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 6e8c7c425e5bc374daf95a774767b1e3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 6e8c7c425e5bc374daf95a774767b1e3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 6e8c7c425e5bc374daf95a774767b1e3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 6e8c7c425e5bc374daf95a774767b1e3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 6e8c7c425e5bc374daf95a774767b1e3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 6e8c7c425e5bc374daf95a774767b1e3, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 6e8c7c425e5bc374daf95a774767b1e3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 6e8c7c425e5bc374daf95a774767b1e3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 6e8c7c425e5bc374daf95a774767b1e3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6e8c7c425e5bc374daf95a774767b1e3, type: 3}
+>>>>>>> a493fb2784f1f22f81a93a7290b85b83bf41edba:Assets/Scenes/Cestbeau.unity
 --- !u!1 &2087186322
 GameObject:
   m_ObjectHideFlags: 0
@@ -419,5 +783,9 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+<<<<<<< HEAD:Assets/C'estbeau.unity
+  m_RootOrder: 2
+=======
+  m_RootOrder: 4
+>>>>>>> a493fb2784f1f22f81a93a7290b85b83bf41edba:Assets/Scenes/Cestbeau.unity
   m_LocalEulerAnglesHint: {x: 10, y: 0, z: 10}
