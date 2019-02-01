@@ -112,6 +112,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+<<<<<<< HEAD:Assets/C'estbeau.unity
 --- !u!1001 &175917855
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -360,6 +361,87 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &324054034
+=======
+--- !u!1001 &190494745
+>>>>>>> a493fb2784f1f22f81a93a7290b85b83bf41edba:Assets/Scenes/Cestbeau.unity
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1026377642355284127, guid: 2ea20c2348ac9b740b6783b8ff672ef8,
+        type: 3}
+      propertyPath: m_Name
+      value: TerreHQ
+      objectReference: {fileID: 0}
+    - target: {fileID: 1983167326921445088, guid: 2ea20c2348ac9b740b6783b8ff672ef8,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1983167326921445088, guid: 2ea20c2348ac9b740b6783b8ff672ef8,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1983167326921445088, guid: 2ea20c2348ac9b740b6783b8ff672ef8,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1983167326921445088, guid: 2ea20c2348ac9b740b6783b8ff672ef8,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1983167326921445088, guid: 2ea20c2348ac9b740b6783b8ff672ef8,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.9848078
+      objectReference: {fileID: 0}
+    - target: {fileID: 1983167326921445088, guid: 2ea20c2348ac9b740b6783b8ff672ef8,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1983167326921445088, guid: 2ea20c2348ac9b740b6783b8ff672ef8,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.17364809
+      objectReference: {fileID: 0}
+    - target: {fileID: 1983167326921445088, guid: 2ea20c2348ac9b740b6783b8ff672ef8,
+        type: 3}
+      propertyPath: m_RootOrder
+<<<<<<< HEAD:Assets/C'estbeau.unity
+      value: 0
+=======
+      value: 3
+>>>>>>> a493fb2784f1f22f81a93a7290b85b83bf41edba:Assets/Scenes/Cestbeau.unity
+      objectReference: {fileID: 0}
+    - target: {fileID: 1983167326921445088, guid: 2ea20c2348ac9b740b6783b8ff672ef8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1983167326921445088, guid: 2ea20c2348ac9b740b6783b8ff672ef8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 1983167326921445088, guid: 2ea20c2348ac9b740b6783b8ff672ef8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3360901055964489683, guid: 2ea20c2348ac9b740b6783b8ff672ef8,
+        type: 3}
+      propertyPath: m_Radius
+      value: 20.18
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2ea20c2348ac9b740b6783b8ff672ef8, type: 3}
+--- !u!1001 &324054034
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -371,163 +453,96 @@ PrefabInstance:
       propertyPath: m_Name
       value: SunHQ
       objectReference: {fileID: 0}
-    - target: {fileID: 7699784607817221168, guid: cda7409f11edb8d46811d0288faad19f,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -20
-      objectReference: {fileID: 0}
-    - target: {fileID: 7699784607817221168, guid: cda7409f11edb8d46811d0288faad19f,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7699784607817221168, guid: cda7409f11edb8d46811d0288faad19f,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -100
-      objectReference: {fileID: 0}
-    - target: {fileID: 7699784607817221168, guid: cda7409f11edb8d46811d0288faad19f,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7699784607817221168, guid: cda7409f11edb8d46811d0288faad19f,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7699784607817221168, guid: cda7409f11edb8d46811d0288faad19f,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7699784607817221168, guid: cda7409f11edb8d46811d0288faad19f,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7699784607817221168, guid: cda7409f11edb8d46811d0288faad19f,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7699784607817221168, guid: cda7409f11edb8d46811d0288faad19f,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7699784607817221168, guid: cda7409f11edb8d46811d0288faad19f,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7699784607817221168, guid: cda7409f11edb8d46811d0288faad19f,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7699784607817221168, guid: cda7409f11edb8d46811d0288faad19f,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 50
-      objectReference: {fileID: 0}
-    - target: {fileID: 7699784607817221168, guid: cda7409f11edb8d46811d0288faad19f,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 50
-      objectReference: {fileID: 0}
-    - target: {fileID: 7699784607817221168, guid: cda7409f11edb8d46811d0288faad19f,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 50
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: cda7409f11edb8d46811d0288faad19f, type: 3}
---- !u!1001 &1002432170
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1026377642355284127, guid: 2ea20c2348ac9b740b6783b8ff672ef8,
-        type: 3}
-      propertyPath: m_Name
-      value: Terre
-      objectReference: {fileID: 0}
+<<<<<<< HEAD:Assets/C'estbeau.unity
     - target: {fileID: 1026377642355284127, guid: 2ea20c2348ac9b740b6783b8ff672ef8,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 1983167326921445088, guid: 2ea20c2348ac9b740b6783b8ff672ef8,
+=======
+    - target: {fileID: 7699784607817221168, guid: cda7409f11edb8d46811d0288faad19f,
+>>>>>>> a493fb2784f1f22f81a93a7290b85b83bf41edba:Assets/Scenes/Cestbeau.unity
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -400
       objectReference: {fileID: 0}
-    - target: {fileID: 1983167326921445088, guid: 2ea20c2348ac9b740b6783b8ff672ef8,
+    - target: {fileID: 7699784607817221168, guid: cda7409f11edb8d46811d0288faad19f,
         type: 3}
       propertyPath: m_LocalPosition.y
+<<<<<<< HEAD:Assets/C'estbeau.unity
       value: -52
+=======
+      value: 10
+>>>>>>> a493fb2784f1f22f81a93a7290b85b83bf41edba:Assets/Scenes/Cestbeau.unity
       objectReference: {fileID: 0}
-    - target: {fileID: 1983167326921445088, guid: 2ea20c2348ac9b740b6783b8ff672ef8,
+    - target: {fileID: 7699784607817221168, guid: cda7409f11edb8d46811d0288faad19f,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -2500
       objectReference: {fileID: 0}
-    - target: {fileID: 1983167326921445088, guid: 2ea20c2348ac9b740b6783b8ff672ef8,
+    - target: {fileID: 7699784607817221168, guid: cda7409f11edb8d46811d0288faad19f,
         type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1983167326921445088, guid: 2ea20c2348ac9b740b6783b8ff672ef8,
+    - target: {fileID: 7699784607817221168, guid: cda7409f11edb8d46811d0288faad19f,
         type: 3}
       propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1983167326921445088, guid: 2ea20c2348ac9b740b6783b8ff672ef8,
+    - target: {fileID: 7699784607817221168, guid: cda7409f11edb8d46811d0288faad19f,
         type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1983167326921445088, guid: 2ea20c2348ac9b740b6783b8ff672ef8,
+    - target: {fileID: 7699784607817221168, guid: cda7409f11edb8d46811d0288faad19f,
         type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 1983167326921445088, guid: 2ea20c2348ac9b740b6783b8ff672ef8,
+    - target: {fileID: 7699784607817221168, guid: cda7409f11edb8d46811d0288faad19f,
         type: 3}
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 1983167326921445088, guid: 2ea20c2348ac9b740b6783b8ff672ef8,
+    - target: {fileID: 7699784607817221168, guid: cda7409f11edb8d46811d0288faad19f,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1983167326921445088, guid: 2ea20c2348ac9b740b6783b8ff672ef8,
+    - target: {fileID: 7699784607817221168, guid: cda7409f11edb8d46811d0288faad19f,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1983167326921445088, guid: 2ea20c2348ac9b740b6783b8ff672ef8,
+    - target: {fileID: 7699784607817221168, guid: cda7409f11edb8d46811d0288faad19f,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1983167326921445088, guid: 2ea20c2348ac9b740b6783b8ff672ef8,
+    - target: {fileID: 7699784607817221168, guid: cda7409f11edb8d46811d0288faad19f,
         type: 3}
       propertyPath: m_LocalScale.x
+<<<<<<< HEAD:Assets/C'estbeau.unity
       value: 100
+=======
+      value: 500
+>>>>>>> a493fb2784f1f22f81a93a7290b85b83bf41edba:Assets/Scenes/Cestbeau.unity
       objectReference: {fileID: 0}
-    - target: {fileID: 1983167326921445088, guid: 2ea20c2348ac9b740b6783b8ff672ef8,
+    - target: {fileID: 7699784607817221168, guid: cda7409f11edb8d46811d0288faad19f,
         type: 3}
       propertyPath: m_LocalScale.y
+<<<<<<< HEAD:Assets/C'estbeau.unity
       value: 100
+=======
+      value: 500
+>>>>>>> a493fb2784f1f22f81a93a7290b85b83bf41edba:Assets/Scenes/Cestbeau.unity
       objectReference: {fileID: 0}
-    - target: {fileID: 1983167326921445088, guid: 2ea20c2348ac9b740b6783b8ff672ef8,
+    - target: {fileID: 7699784607817221168, guid: cda7409f11edb8d46811d0288faad19f,
         type: 3}
       propertyPath: m_LocalScale.z
+<<<<<<< HEAD:Assets/C'estbeau.unity
       value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 3360901055964489683, guid: 2ea20c2348ac9b740b6783b8ff672ef8,
@@ -543,6 +558,13 @@ PrefabInstance:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2ea20c2348ac9b740b6783b8ff672ef8, type: 3}
 --- !u!1 &1959959963
+=======
+      value: 500
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: cda7409f11edb8d46811d0288faad19f, type: 3}
+--- !u!1 &1819513435
+>>>>>>> a493fb2784f1f22f81a93a7290b85b83bf41edba:Assets/Scenes/Cestbeau.unity
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -616,6 +638,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:Assets/C'estbeau.unity
   m_GameObject: {fileID: 1959959963}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -626,6 +649,73 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+  m_GameObject: {fileID: 1819513435}
+  m_LocalRotation: {x: 1, y: 0, z: 0, w: 0}
+  m_LocalPosition: {x: 100, y: 100, z: 100}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 180, y: 0, z: 0}
+--- !u!1001 &2044568267
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 100004, guid: 6e8c7c425e5bc374daf95a774767b1e3, type: 3}
+      propertyPath: m_Name
+      value: ExploAlien
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 6e8c7c425e5bc374daf95a774767b1e3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 6e8c7c425e5bc374daf95a774767b1e3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 6e8c7c425e5bc374daf95a774767b1e3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 6e8c7c425e5bc374daf95a774767b1e3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 6e8c7c425e5bc374daf95a774767b1e3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 6e8c7c425e5bc374daf95a774767b1e3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 6e8c7c425e5bc374daf95a774767b1e3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 6e8c7c425e5bc374daf95a774767b1e3, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 6e8c7c425e5bc374daf95a774767b1e3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 6e8c7c425e5bc374daf95a774767b1e3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 6e8c7c425e5bc374daf95a774767b1e3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6e8c7c425e5bc374daf95a774767b1e3, type: 3}
+>>>>>>> a493fb2784f1f22f81a93a7290b85b83bf41edba:Assets/Scenes/Cestbeau.unity
 --- !u!1 &2087186322
 GameObject:
   m_ObjectHideFlags: 0
@@ -693,5 +783,9 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< HEAD:Assets/C'estbeau.unity
   m_RootOrder: 2
+=======
+  m_RootOrder: 4
+>>>>>>> a493fb2784f1f22f81a93a7290b85b83bf41edba:Assets/Scenes/Cestbeau.unity
   m_LocalEulerAnglesHint: {x: 10, y: 0, z: 10}
