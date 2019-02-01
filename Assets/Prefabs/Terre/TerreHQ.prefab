@@ -12,8 +12,9 @@ GameObject:
   - component: {fileID: 5655197151361358632}
   - component: {fileID: 829648025257633957}
   - component: {fileID: 3360901055964489683}
+  - component: {fileID: 7984119836240240702}
   m_Layer: 0
-  m_Name: Terre
+  m_Name: TerreHQ
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 1026377642355284127}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 10, y: 10, z: 10}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -91,3 +92,16 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &7984119836240240702
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1026377642355284127}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55995eed03b02024b9225042edef7a3d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ville: {fileID: 4841231680227148765, guid: 41b98aae70074ae429ff650e12e123a1, type: 3}
