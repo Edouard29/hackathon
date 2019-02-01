@@ -11,6 +11,7 @@ public class Villes : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+
         string fileName = "Assets/Prefabs/Terre/infoVilles.txt";
         TextReader reader;
         reader = new StreamReader(fileName);
@@ -29,6 +30,8 @@ public class Villes : MonoBehaviour
             longitude = float.Parse(line);
             line = reader.ReadLine();
             latitude = float.Parse(line);
+            line = reader.ReadLine();
+            int population = int.Parse(line);
 
             // On utilise les données récupérées dans le fichier
 
@@ -38,6 +41,12 @@ public class Villes : MonoBehaviour
             tempVille.transform.RotateAround(new Vector3(0, gameObject.transform.position.y, 0), new Vector3(1, 0, 0), -latitude);
             tempVille.transform.RotateAround(new Vector3(0, gameObject.transform.position.y, 0), new Vector3(0, 1, 0), -longitude);
             tempVille.layer = 9;
+
+            tempVille.GetComponent<villeScript>().population = population;
+            tempVille.GetComponent<villeScript>().longitude = longitude;
+            tempVille.GetComponent<villeScript>().latitude = latitude;
+            tempVille.name = nom;
+            tempVille.tag = "ville";
 
             GameObject nomVille = GameObject.Instantiate(canvas);
             nomVille.transform.parent = gameObject.transform;

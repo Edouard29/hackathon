@@ -13,7 +13,7 @@ public class GenerationAliens : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        time = timeAttack;
+        time = 0;
     }
 
     // Update is called once per frame
@@ -25,53 +25,34 @@ public class GenerationAliens : MonoBehaviour
         {
             time = timeAttack;
 
-
+            popAlien();
         }
     }
 
 
     void popAlien()
     {
-        string fileName = "Assets/Prefabs/Terre/infoVilles.txt";
-        TextReader reader;
-        reader = new StreamReader(fileName);
-        string line;
+        GameObject []villes = GameObject.FindGameObjectsWithTag("ville");
 
-        int nbLignes = 0;
-        while (true)
+        if (villes.Length > 0)
         {
-            // lecture de la ligne
-            line = reader.ReadLine();
-            // si la ligne est vide on arrête
-            if (line == null) break;
-            else nbLignes++;
+            int rand = Random.Range(0, villes.Length - 1);
+
+            string nom = villes[rand].name;
+            float longitude = villes[rand].GetComponent<villeScript>().longitude;
+            float latitude = villes[rand].GetComponent<villeScript>().latitude;
+
+            // On utilise les données récupérées dans le fichier
+
+            GameObject newAlien = GameObject.Instantiate(alien);
+            newAlien.transform.parent = gameObject.transform;
+
+            newAlien.transform.RotateAround(new Vector3(0, 0, 0), new Vector3(1, 0, 0), 90);
+            newAlien.transform.localPosition = new Vector3(0, 0.8f, 40f);
+            newAlien.transform.RotateAround(new Vector3(0, gameObject.transform.position.y, 0), new Vector3(1, 0, 0), -latitude);
+            newAlien.transform.RotateAround(new Vector3(0, gameObject.transform.position.y, 0), new Vector3(0, 1, 0), -longitude);
+
+            newAlien.GetComponent<alienScript>().nomVilleADetruire = nom;
         }
-        reader.Close();
-
-        int randLine = Random.Range(0, nbLignes/3);
-
-        reader = new StreamReader(fileName);
-
-        for (int i = 0; i < randLine * 3; i++)
-            reader.ReadLine();
-
-        // lecture de la ligne
-        line = reader.ReadLine();
-        float longitude, latitude;
-
-        line = reader.ReadLine();
-        longitude = float.Parse(line);
-        line = reader.ReadLine();
-        latitude = float.Parse(line);
-
-        // On utilise les données récupérées dans le fichier
-
-        GameObject newAlien = GameObject.Instantiate(alien);
-        newAlien.transform.parent = gameObject.transform;
-        newAlien.transform.localPosition = new Vector3(0, 0, 25f);
-        newAlien.transform.RotateAround(new Vector3(0, gameObject.transform.position.y, 0), new Vector3(1, 0, 0), -latitude);
-        newAlien.transform.RotateAround(new Vector3(0, gameObject.transform.position.y, 0), new Vector3(0, 1, 0), -longitude);
-
-        reader.Close();
     }
 }

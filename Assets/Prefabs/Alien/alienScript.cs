@@ -4,8 +4,11 @@ using UnityEngine;
 
 public class alienScript : MonoBehaviour
 {
-    float vitesse = 0.1f;
+    float vitesse = 0.002f;
     int morts = 0;
+    bool end = false;
+
+    public string nomVilleADetruire;
 
     // Start is called before the first frame update
     void Start()
@@ -18,11 +21,31 @@ public class alienScript : MonoBehaviour
     {
         Vector3 centreAlien = gameObject.transform.position - new Vector3(0, -20.2f, 0);
 
-        if(centreAlien.magnitude > 20.2)
-            gameObject.transform.position -= vitesse * centreAlien;
+        if (!end)
+        {
+            if (centreAlien.magnitude > 21)
+                gameObject.transform.position -= vitesse * centreAlien;
+            else
+            {
+                int m = Random.Range(0, 100000);
+                if (GameObject.Find(nomVilleADetruire).GetComponent<villeScript>().population - m < 0)
+                {
+                    m = GameObject.Find(nomVilleADetruire).GetComponent<villeScript>().population;
+                    end = true;
+                }
+
+                GameObject.Find(nomVilleADetruire).GetComponent<villeScript>().population -= m;
+                morts += m;
+            }
+        }
         else
         {
-            morts++;
+            gameObject.transform.position += vitesse * centreAlien;
+            if (centreAlien.magnitude > 50)
+            {
+                GameObject.Destroy(gameObject);
+            }
         }
+
     }
 }
