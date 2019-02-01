@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 829648025257633957}
   - component: {fileID: 3360901055964489683}
   - component: {fileID: 7984119836240240702}
+  - component: {fileID: 3546581658898850313}
   m_Layer: 0
   m_Name: TerreHQ
   m_TagString: Untagged
@@ -27,13 +28,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1026377642355284127}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: 0.69779044, z: 0, w: 0.7163019}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 10, y: 10, z: 10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 88.5, z: 0}
 --- !u!33 &5655197151361358632
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -106,3 +107,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canvas: {fileID: 7565481553376146254, guid: 8df827c48ce6e7f42b71dd773fd428cb, type: 3}
   ville: {fileID: 4841231680227148765, guid: 41b98aae70074ae429ff650e12e123a1, type: 3}
+--- !u!114 &3546581658898850313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1026377642355284127}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b14bc96236e33841a2edbb4aba0f908, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  alien: {fileID: 4758656246762567570, guid: f57255acf77b90149ae451f07048b3b0, type: 3}

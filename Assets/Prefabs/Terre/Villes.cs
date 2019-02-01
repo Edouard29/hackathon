@@ -34,16 +34,20 @@ public class Villes : MonoBehaviour
 
             GameObject tempVille = GameObject.Instantiate(ville);
             tempVille.transform.parent = gameObject.transform;
-            tempVille.transform.localPosition = new Vector3(0, 0.5f, 0);
-            tempVille.transform.RotateAround(new Vector3(0, gameObject.transform.position.y, 0), new Vector3(0, 1, 0), longitude);
-            tempVille.transform.RotateAround(new Vector3(0, gameObject.transform.position.y, 0), new Vector3(0.5f, 0, 0.5f), latitude);
+            tempVille.transform.localPosition = new Vector3(0, 0, 20.2f);
+            tempVille.transform.RotateAround(new Vector3(0, gameObject.transform.position.y, 0), new Vector3(1, 0, 0), -latitude);
+            tempVille.transform.RotateAround(new Vector3(0, gameObject.transform.position.y, 0), new Vector3(0, 1, 0), -longitude);
             tempVille.layer = 9;
 
             GameObject nomVille = GameObject.Instantiate(canvas);
             nomVille.transform.parent = gameObject.transform;
-            nomVille.transform.localPosition = new Vector3(0, 0.6f, 0);
-            nomVille.transform.RotateAround(new Vector3(0, gameObject.transform.position.y, 0), new Vector3(0, 1, 0), longitude);
-            nomVille.transform.RotateAround(new Vector3(0, gameObject.transform.position.y, 0), new Vector3(0.5f, 0, 0.5f), latitude);
+
+            nomVille.transform.RotateAround(new Vector3(0, 0, 0), new Vector3(0, 1, 0), 180);
+
+            nomVille.transform.localPosition = new Vector3(0, 0, 20.2f);
+            
+            nomVille.transform.RotateAround(new Vector3(0, gameObject.transform.position.y, 0), new Vector3(1, 0, 0), -latitude);
+            nomVille.transform.RotateAround(new Vector3(0, gameObject.transform.position.y, 0), new Vector3(0, 1, 0), -longitude);
             nomVille.layer = 9;
 
             nomVille.GetComponent<UnityEngine.UI.Text>().text = nom;
