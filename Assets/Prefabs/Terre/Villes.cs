@@ -37,7 +37,7 @@ public class Villes : MonoBehaviour
 
             GameObject tempVille = GameObject.Instantiate(ville);
             tempVille.transform.parent = gameObject.transform;
-            tempVille.transform.localPosition = new Vector3(0, 0, 20.2f);
+            tempVille.transform.localPosition = new Vector3(0, 0, 20.3f);
             tempVille.transform.RotateAround(new Vector3(0, gameObject.transform.position.y, 0), new Vector3(1, 0, 0), -latitude);
             tempVille.transform.RotateAround(new Vector3(0, gameObject.transform.position.y, 0), new Vector3(0, 1, 0), -longitude);
             tempVille.layer = 9;

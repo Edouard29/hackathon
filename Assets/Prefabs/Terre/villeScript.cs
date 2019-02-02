@@ -19,4 +19,10 @@ public class villeScript : MonoBehaviour
         if (population <= 0)
             GameObject.Destroy(gameObject);
     }
+
+    private void OnTriggerStay(Collider other)
+    {
+        Debug.Log("ville");
+        GameObject.Destroy(gameObject);
+    }
 }

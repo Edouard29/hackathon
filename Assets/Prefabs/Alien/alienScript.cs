@@ -27,7 +27,7 @@ public class alienScript : MonoBehaviour
                 gameObject.transform.position -= vitesse * centreAlien;
             else
             {
-                int m = Random.Range(0, 100000);
+                int m = Random.Range(0, 2000);
                 if (GameObject.Find(nomVilleADetruire).GetComponent<villeScript>().population - m < 0)
                 {
                     m = GameObject.Find(nomVilleADetruire).GetComponent<villeScript>().population;
@@ -47,5 +47,11 @@ public class alienScript : MonoBehaviour
             }
         }
 
+    }
+
+    private void OnTriggerStay(Collider other)
+    {
+        Debug.Log("alien");
+        GameObject.Destroy(gameObject);
     }
 }
